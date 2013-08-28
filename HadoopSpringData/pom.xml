@@ -95,7 +95,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>mapreduce</finalName>
+        <finalName>SpringHadoopJob</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -125,7 +125,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>net.petrikainulainen.spring.data.apachehadoop.Main</mainClass>
+                            <mainClass>com.rajkrrsingh.hadoop.MaxTemperature</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
